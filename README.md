@@ -1,4 +1,4 @@
-# Simple Password Encryptor/Decryptor (C)
+# 🔐 Simple Password Encryptor/Decryptor (C)
 
 This is a basic password encryption and decryption program written in C. It uses XOR with a static key to encrypt and decrypt strings, displaying the encrypted result in hexadecimal format.
 
@@ -6,7 +6,7 @@ This proyect was made just for fun and some learning :)
 
 ---
 
-## Features
+## 🖥️ Features
 
 - Encrypt any text string using a static XOR key.
 - Decrypt a hexadecimal string back to its original text.
@@ -15,14 +15,14 @@ This proyect was made just for fun and some learning :)
 
 ---
 
-## How It Works
+## 🔑 How It Works
 
 - **Encryption**: The input string is XOR'd with a predefined key and converted to a hexadecimal representation.
 - **Decryption**: The input hexadecimal string is parsed into bytes, XOR'd with the key, and reconstructed into the original text.
 
 ---
 
-## Usage
+## ▶️ Usage
 
 1. **Compile the program**:
 
@@ -43,7 +43,7 @@ This proyect was made just for fun and some learning :)
 
 ---
 
-## Example
+## 📌 Example
 
 ```
 Encrypt or decrypt? (1 | 2 | 3 to exit) 1
@@ -59,7 +59,7 @@ Decrypted to: hello
 
 ---
 
-## Notes
+## ❗ Notes
 
 - The encryption key is hardcoded as `"stringkey"`.
 - Encryption is **not secure** for real password storage or sensitive data.
@@ -67,7 +67,7 @@ Decrypted to: hello
 
 ---
 
-## License
+## 📄 License
 
 This project is released under the MIT License.
 
